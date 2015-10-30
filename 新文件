@@ -1,0 +1,22 @@
+<!DOCTYPE HTML >
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+  <title>第一个</title>
+  </head>
+  <body>
+   <hgroup>
+   <h1>第一章</h1>
+   <h2>第一节</h2>
+   </hgroup>
+   <p>
+   哈哈<b>呵呵</b> <br>
+   <i>哼哼</i><br>
+   <tt>explore</tt><br>
+   基金酷话<small>你就</small><br>
+   <del>删除这个</del><ins>加上这个</ins> <br>
+   <s>过时的</s><br>
+   
+   </p>
+  </body>
+</html>
