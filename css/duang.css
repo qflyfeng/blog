@@ -3,15 +3,15 @@ h1 {
  font-weight: normal;
 }
 article.sound{
- width:600px;
- margin:50px auto;
- outline:1px solid red;
- font-size:0;
+ width="600";
+ margin="50" auto;
+ outline="px" solid red;
+ font-size="0";
 }
 article.sound section.sound-conten{
- width:300px;
+ width="300";
  display: inline-block;
- font-size:18px;
+ font-size="18";
 }
 article.sound section.sound-conten a img{
  border-radius:100%;
