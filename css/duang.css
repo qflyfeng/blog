@@ -1,3 +1,18 @@
 h1 {
- color:green;
+ color:rgb(73,73,73);
+ font-weight: normal;
+}
+article.sound{
+ width:600px;
+ margin:50px auto;
+ outline:1px solid red;
+ font-size:0;
+}
+article.sound section.sound-conten{
+ width:300px;
+ display: inline-block;
+ font-size:18px;
+}
+article.sound section.sound-conten a img{
+ border-radius:100%;
 }
