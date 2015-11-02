@@ -1,7 +1,28 @@
+#c { background-color:#a214d5; 
+position: absolute;
+ left: 100px; 
+top: 40px; 
+width: 550px;
+height:550px; }
+#a {  
+position: absolute;
+ left: 100px; 
+top: 40px; 
+width: 100px;
+height:1000px; }
+#b{ background-color:#a2c614; 
+position: absolute;
+ left: 100px; 
+top: 590px; 
+width: 550px;
+height:550px; }
 body{
-background: #000;
-}
-nav{
-background: #ccc;
-height: 50px;
+background-color:#223a12;
+width:550px;
+height:1600px;
+margin-top:0;
+margin-left:0;
+margin-right:60;
+margin-bottom:60;
+border:2px dotted black;
 }
