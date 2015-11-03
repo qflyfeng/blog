@@ -1,0 +1,35 @@
+body {
+
+  background-image:url(过.jpg);background-repeat:no-repeat;
+  }
+
+
+
+
+ div{opacity:0.5; border-radius:20px; }
+
+ p{ font-size:35px;
+
+font-weight:lighter;
+ }
+
+ #c { background-color:#a214d5; position: absolute; left: 350px; top:450px; width: 450px; height:100px; } 
+
+#a { background-color:#a215ac; width:450px; width:100px;
+background-size:450px; position: absolute; left: 0px; top:650px; width: 450px; height:100px; } 
+
+#b{ background-color:#a2c614; position: absolute; left:450px; top: 550px; width: 100px; height:450px; } 
+
+#d{ background-color:#a2c6b4; position: absolute; left:250px; top: 200px; width: 100px; height:450px; } 
+
+#e{ background-image:url(QQ.png);background-size:100%; position: absolute; left: 0px; top: 0px; width: 50px; height:50px; border-radius:25px; opacity:1; }
+
+#f{ background-color:#99FF00;
+background-size:200%; position:absolute; left: 1000px; top: 500px; width: 200px; height:200px; border-radius:100px; }
+
+#g{ background-image:url(wei.jpg);
+background-size:100%; position:absolute; left: 0px; top: 70px; width: 50px; height:50px; border-radius:25px; }
+
+
+
+
