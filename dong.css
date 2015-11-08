@@ -30,7 +30,7 @@ div,p,#welcome{transition:all 1s;}
 #share1{position:absolute;top:-200px;left:-30px;transform:rotate(0deg);width:200px;height:200px;}
 #share2{position:absolute;top:-140px;left:-140px;transform:rotate(0deg);width:200px;height:200px;}
 #share3{position:absolute;top:0px;left:-200px;transform:rotate(0deg);width:200px;height:200px;}
-#qqshare{position:absolute;top:-500px;left:-540px;transform:rotate(0deg);}
+#qqshare{position:absolute;top:-1000px;left:-700px;transform:rotate(0deg);}
 #share:hover{position:absolute;top:0px;left:0px;transform:rotate(180deg);}
 
 
