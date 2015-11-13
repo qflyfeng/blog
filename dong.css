@@ -5,6 +5,11 @@ figure{widtn:50%}}
 @media screen and(max-width:1001px){
 figure{widtn:33.333%}}
 
+#video{
+  position:absolute;top:400;left:100%;width:500px;height:500px;
+}
+
+
 body {
 margin:0;padding:0;background-color:#336633;
   }  
