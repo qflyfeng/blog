@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box; }
-#trip{margin:0;padding:0;position:absolute;top:300px;left:60%;width:500px;height:500px;}
+#trip{margin:0;padding:0;position:absolute;left:60%;width:500px;height:500px;}
 #qq{
   margin:0;padding:0;position:absolute;left:0px;width:40%;height:100%;background-color:#FF6A6A;opacity:0.5;
   
