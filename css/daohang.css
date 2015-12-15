@@ -1,0 +1,102 @@
+﻿
+body{	
+		padding:0;
+		margin:0;
+}
+	/*主菜单半圆*/
+#menu{
+	z-index:999;
+	background-repeat: no-repeat;
+	background-color: #123;
+	background-size: 40px 40px;
+	background-position:left bottom;
+	width:80px;
+	height:80px;
+	border-radius: 0px 40px 40px 40px;
+/*	border:1px solid  black;*/
+	position:fixed;
+	bottom:20%;
+	left:0px;
+}
+	/*悬停在主菜单发生变化*/
+#menu:hover{
+	background-color:gray;
+}
+	/*对所有li定义*/
+li{
+	list-style:none;
+}
+	/*一级子菜单li原有样式*/
+.childmenu li{
+	background-color: gray;
+/*	border-top: 1px solid blue;*/
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	width:150px;
+	height:40px;
+}
+	/*对菜单中的a标签定义*/
+#menu a{
+	font-family: 华文彩云;
+	text-decoration: none;
+	color:#fff;
+}
+#menu a:hover{
+	font-family: 华文琥珀;
+}
+
+	/*一级子菜单样式*/
+.childmenu{
+	background-color: gray;
+	display: none;
+	padding:0px;
+	width:150px;
+	position:relative;
+	top:-315px;
+	left:-40px;
+}
+	/*二级菜单样式位置*/
+.cchild{
+	display:none; 
+	position:relative;
+	left:110px;
+	top:-50px;
+}
+	/*悬停在二级菜单的变化*/
+.childmenu4:hover .cchild{
+	display: block;
+}
+	/*悬停在主菜单出现子菜单*/
+#menu:hover .childmenu{
+	display: block;
+}
+	/*悬停在主菜单显示子菜单1的样式*/
+#menu:hover .childmenu1{
+	background-color: gray;
+}
+	/*悬停在主菜单显示子菜单2的样式*/
+#menu:hover .childmenu2{
+	background-color: #ffdd55;
+}
+	/*悬停在主菜单显示子菜单3的样式*/
+#menu:hover .childmenu3{
+	background-color: #ffcc22;
+}
+	/*悬停在主菜单显示子菜单4的样式*/
+#menu:hover .childmenu4{
+	background-color: #ffbb00;
+}
+	/*悬停在主菜单显示子菜单5的样式*/
+#menu:hover .childmenu5{
+	background-color: #ddaa00;
+}
+	/*悬停在主菜单显示子菜单6的样式*/
+#menu:hover .childmenu6{
+	background-color: #AA7700;
+}
+	/*悬停在子菜单的变化*/
+.childmenu li:hover{
+	font-size: 35px;
+	background-color:#444444;
+}
