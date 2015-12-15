@@ -5,278 +5,12 @@
 	<title>
 	首页
 	</title>
-	<style>
-	ul{
-		/*border:1px solid red;*/
-	}
-a{
-	text-decoration:none;
-	color:#fff;
-}
-body{
-		/*height:1400px;*/
-		background-image:url(image/10.jpg);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		margin:0;
-		padding:0;
-}
-div{
-	margin:0;
-	padding:0;
-}
-ul,li{
-	list-style: none;
-	margin:0;
-	padding:0;
-}
-.yiji{
-	/*border:1px solid red;*/
-	background-color:gray;
-	height:130px;
-	/*height:200px;*/
-	margin:0;
-	padding:0;
-	width:16%;
-	/*float:left;*/
-	background:rgba(96,96,96,0.6);
-}
-#nav{
-
-/*	border:1px solid red;
-*/	/*position:fixed;*/
-	top:0px;
-	width:100%;
-}
-#nav ul li img{
-/*	border:1px solid red;*/
-	position:relative;
-	top:60px;
-	width:30px;
-	height:30px;
-}
-#nav ul .yiji{
-/*	border:1px solid red;*/
-	font-family: 华文彩云;
-	font-size:25px;
-	padding:15px 0px 15px 0px;
-	text-decoration:none;
-	color:#fff;
-	text-align:center;
-}
-#nav ul .yiji:hover img{
-	display:none;
-}
-.text1{
-/*	border:1px solid red;*/
-	display: none;
-}
-#nav ul .yiji:hover .text1{
-	position: relative;
-	top:60px;
-	display: block;
-}
-#nav ul .yiji:hover {
-	background:rgba(0,0,0,0.1);
-}
-#nav ul li:hover a{
-	font-family: 华文琥珀;
-}
-
-#logo{
-	position:absolute;
-	right:0px;
-	top:0px;
-	width:84%;
-	font-family:行楷;
-	font-size:20px;
-}
-#logo img{
-	position:absolute;
-	right:20%;
-	float:right;
-}
-/*二级菜单样式*/
-.zhuyec{
-	top :18% ;
-	border:1px solid red;
-	display: block;
-	position:absolute;
-	left:16%;
-	width:84%;
-	height:134%;
-}
-#nav frist-child:hover .zhuyec{
-	display: none;
-}
-.rizhic,.xiangcec,.fenxiangc,.jishuc,.bozhuc{
-	top :18% ;
-	display: none;
-	/*border:1px solid red;*/
-	position:absolute;
-	left:16%;
-	width:84%;/*83*/
-	height:134%;
-}
-/*日志li和ul等高等宽*/
-.rizhic li{
-	width :100%;
-	height :100%;
-}
-/*悬停在日志上显示日志内容*/
-#rizhi:hover .rizhic{
-	display: block;
-	/*position:absolute;*/
-	/*top :18% ;*/
-}
-
-/*相册li和ul等高等宽*/
-.xiangce li{
-	width :100%;
-	height :100%;
-}
-/*悬停在相册上像是相册内容*/
-#xiangce:hover .xiangcec{
-	display: block;
-	/*position:absolute;
-	top :18% ;*/
-}
-
-/*技术li和ul等高等宽*/
-.jishuc li{
-	width :100%;
-	height :100%;
-}
-/*悬停在技术上显示技术内容*/
-#jishu:hover .jishuc{
-	display: block;
-	/*position:absolute;
-	top :18% ;*/
-}
-
-/*分享li和ul等高等宽*/
-.fenxiangc li{
-	width :100%;
-	height :100%;
-}
-/*悬停在技术上显示分享内容*/
-#fenxiang:hover .fenxiangc{
-	display: block;
-	/*position:absolute;
-	top :18% ;*/
-}
-
-/*博主li和ul等高等宽*/
-.bozhuc li{
-	width :100%;
-	height :100%;
-}
-/*悬停在博主上显示博主内容*/
-#bozhu:hover .bozhuc{
-	display: block;
-	/*position:absolute;
-	top :18% ;*/
-}
-.yuan{
-	background-size: 100% 100%;
-	border-radius: 150px 150px 150px 150px;
-	width:300px;
-	height:300px;
-	float:left;
-}
-#rizhiimg{
-	position:relative;
-	left:10%;
-	top:100px;
-	background-image:url(image/rizhi.jpg);
-}
-#rizhiimg:hover{
-	background-image:url(image/tiane.jpg);
-}
-.rizhitext{
-	float:right;
-	height:100%;
-	width:50%;
-/*	border:1px solid red;*/
-	font-family: 华文行楷;
-}
-.rizhitext p{
-/*	border:1px solid red;*/
-	position:relative;
-	top:80px;
-}
-#xiangceimg{
-	position:relative;
-	left:10%;
-	top:200px;
-	background-image:url(image/guihua.jpg);
-}
-#xiangceimg1{
-	background-size: 100% 100%;
-	border-radius: 200px 200px 200px 200px;
-	width:400px;
-	height:400px;
-	position:relative;
-	left:42%;
-	top:400px;
-	background-image:url(image/chengxin.jpg);
-}
-#xiangce1{
-	opacity: 0.5;
-	position:relative;
-/*	top:0px;*/
-	float:right;
-	right:0px;
-	background-color: #000;
-	border-radius: 50px 50px 50px 50px;
-	width:100px;
-	height:100px;
-}
-#jishuimg1{
-	background-size: 100% 100%;
-	border-radius: 0px 200px 200px 200px;
-	width:400px;
-	height:400px;
-	background-image:url(image/v2.jpg);
-	position:relative;
-	left:10%;
-	top:200px;
-}
-#fenxiangimg{
-	background-image:url(image/daima.jpg);
-	position:relative;
-	left:20%;
-	top:200px;
-}
-#bozhuimg{
-	background-size: 100% 100%;
-	border-radius: 0px 150px 150px 150px;
-	width:300px;
-	height:300px;
-	float:left;
-	background-image:url(image/my.jpg);
-	position:relative;
-	left:10%;
-	top:50px;
-}
-.rizhitext img{
-	width:10px;
-	height:10px;
-}
-.rizhitext2 p{
-	position: relative;
-	top:100px;
-/*	border:1px solid red;*/
-	font-family: 华文行楷;
-}
-
-	</style>
-
+	<link rel="stylesheet" type="text/css" href="css/zhuye.css">
 </head>
 <body>
 <div id="nav">
 	<ul>
-		<li class="yiji" id="zhuye"><img src="image/zhuye.png"/><a href="" class="text1">主页</a>
+		<li class="yiji" id="zhuye"><img src="image/zhuye.png"/><a class="text1">主页</a>
 			<!-- <ul class="zhuyec">
 				<li>
 					<div>
@@ -286,7 +20,7 @@ ul,li{
 			</ul> -->
 		</il>
 
-		<li id="rizhi"  class="yiji"><a><img src="image/rizhi.png"/></a><a href="" class="text1">日志</a>
+		<li id="rizhi"  class="yiji"><a><img src="image/rizhi.png"/></a><a class="text1">日志</a>
 			<ul class="rizhic">
 				<li>
 					<div id="rizhiimg" class="yuan">
@@ -302,14 +36,14 @@ ul,li{
 							喧嚣的城市 匆忙的行人<br>
 							在南方流浪 在南方歌唱
 							<br><br>
-							<a href="#">Read More ></a>
+							<a href="rizhi.html">Read More ></a>
 						</p>
 					</div>
 				</li>
 			</ul>
 		</il>
 
-		<li id="xiangce" class="yiji"><a><img src="image/tupian.png"/></a><a href="" class="text1">相册</a>
+		<li id="xiangce" class="yiji"><a><img src="image/tupian.png"/></a><a  class="text1">相册</a>
 			<ul class="xiangcec">
 				<li>
 					<div id="xiangceimg" class="yuan">
@@ -317,38 +51,38 @@ ul,li{
 					<div id="xiangceimg1">
 					</div>
 					<div id="xiangce1">
-						<p><a href="#">more<br>></a></p>
+						<p><a href="xiangce.html">More<br>></a></p>
 					</div>
 
 				</li>
 			</ul>
 		</il>
 
-		<li id="jishu" class="yiji"><a><img src="image/jishu.png"/></a><a href="bozhu.html" class="text1">技术</a>
+		<li id="jishu" class="yiji"><a><img src="image/jishu.png"/></a><a class="text1">技术</a>
 			<ul class="jishuc">
 				<li>
 					<div id="jishuimg1">
 					</div>
 					<div class="rizhitext">
 						<p>C 语言笔记<br>HTML 笔记<br>...<br><br><br>技术狂的世界<br>
-						<a href="#">Read More ></a></p>
+						<a href="jishu.html">Read More ></a></p>
 				</li>
 			</ul>
 		</il>
 
-		<li id="fenxiang" class="yiji"><a><img src="image/fenxiang.png"/></a><a href="" class="text1">软件共享</a>
+		<li id="fenxiang" class="yiji"><a><img src="image/fenxiang.png"/></a><a class="text1">软件共享</a>
 			<ul class="fenxiangc">
 				<li>
 					<div class="yuan" id="fenxiangimg">
 					</div>
 					<div class="rizhitext">
-						<p>科学上网<br><br>实用软件<br><br>...<br><br><a>Share</a></p>
+						<p>科学上网<br><br>实用软件<br><br>...<br><br><a href="fenxiang.html">More</a></p>
 					</div>
 				</li>
 			</ul>
 		</il>
 
-		<li id="bozhu" class="yiji"><a><img src="image/bozhu.png"/></a><a href="bozhu.html" class="text1">博主风采</a>
+		<li id="bozhu" class="yiji"><a><img src="image/bozhu.png"/></a><a class="text1">博主风采</a>
 			<ul class="bozhuc">
 				<li>
 					<div id="bozhuimg">
@@ -367,15 +101,16 @@ ul,li{
 
 		<li class="yiji"></li>
 		<li class="yiji"></li>
-	// 	<li class="yiji1"><script type="text/javascript">
-	// var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-	// document.write(unescape("%3Cspan id='cnzz_stat_icon_1256747811'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1256747811%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
-	</script></li>
+	    <li class="yiji1"></li>
 	</ul>
 	<div id="logo">
 		<img src="image/logo.png">
+		<br><a>---程序员的修炼手册</a>
 	</div>
 	
+</div>
+<div id="tj">
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1256747811'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1256747811%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
 </div>
 </body>
 </html>
