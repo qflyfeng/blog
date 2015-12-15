@@ -1,0 +1,251 @@
+a{
+	text-decoration:none;
+	color:#fff;
+}
+body{
+		background-image:url(../image/x.jpg);
+		background-color:gray;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		margin:0;
+		padding:0;
+}
+div{
+	margin:0;
+	padding:0;
+}
+ul,li{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+.yiji{
+	background-color:gray;
+	height:130px;
+	margin:0;
+	padding:0;
+	width:16%;
+	background:rgba(96,96,96,0.6);
+}
+#nav{
+	top:0px;
+	width:100%;
+}
+#nav ul li img{
+	position:relative;
+	top:60px;
+	width:30px;
+	height:30px;
+}
+#nav ul .yiji{
+	font-family: 华文彩云;
+	font-size:25px;
+	padding:15px 0px 15px 0px;
+	text-decoration:none;
+	color:#fff;
+	text-align:center;
+}
+#nav ul .yiji:hover img{
+	display:none;
+}
+.text1{
+	display: none;
+}
+#nav ul .yiji:hover .text1{
+	position: relative;
+	top:60px;
+	display: block;
+}
+#nav ul .yiji:hover {
+	background:rgba(0,0,0,0.1);
+}
+#nav ul li:hover a{
+	font-family: 华文琥珀;
+}
+
+#logo{
+	position:absolute;
+	right:16%;
+	top:0px;
+	font-family:行楷;
+	font-size:20px;
+}
+#logo img{
+	position:relative;
+	float:right;
+}
+#logo a{
+	position:relative;
+	left:60%;
+	font-family:华文行楷;
+}
+/*二级菜单样式*/
+.zhuyec{
+	top :18% ;
+	border:1px solid red;
+	display: block;
+	position:absolute;
+	left:16%;
+	width:84%;
+
+}
+#nav frist-child:hover .zhuyec{
+	display: none;
+}
+.rizhic,.xiangcec,.fenxiangc,.jishuc,.bozhuc{
+	display: none;
+	position:absolute; 
+	top:160px;
+	left:16%;
+	width:84%;/*83*/
+	height:1040px;
+}
+/*日志li和ul等高等宽*/
+.rizhic li{
+	width :100%;
+	height :100%;
+}
+/*悬停在日志上显示日志内容*/
+#rizhi:hover .rizhic{
+	display: block;
+}
+
+/*相册li和ul等高等宽*/
+.xiangcec li{
+	width :100%;
+	height :100%;
+}
+/*悬停在相册上像是相册内容*/
+#xiangce:hover .xiangcec{
+	display: block;
+}
+
+/*技术li和ul等高等宽*/
+.jishuc li{
+	width :100%;
+	height :100%;
+}
+/*悬停在技术上显示技术内容*/
+#jishu:hover .jishuc{
+	display: block;
+}
+
+/*分享li和ul等高等宽*/
+.fenxiangc li{
+	width :100%;
+	height :100%;
+}
+/*悬停在技术上显示分享内容*/
+#fenxiang:hover .fenxiangc{
+	display: block;
+}
+
+/*博主li和ul等高等宽*/
+.bozhuc li{
+	width :100%;
+	height :100%;
+}
+/*悬停在博主上显示博主内容*/
+#bozhu:hover .bozhuc{
+	display: block;
+}
+.yuan{
+box-shadow: 10px 10px 5px #888888;
+	background-size: 100% 100%;
+	border-radius: 150px 150px 150px 150px;
+	width:300px;
+	height:300px;
+	float:left;
+}
+#rizhiimg{
+	position:relative;
+	left:10%;
+	top:100px;
+	background-image:url(../image/rizhi.jpg);
+}
+.rizhitext{
+	float:right;
+	width:50%;
+	font-family: 华文行楷;
+}
+.rizhitext p{
+	position:relative;
+	top:80px;
+}
+#xiangceimg{
+	position:relative;
+	left:10%;
+	top:200px;
+	background-image:url(../image/guihua.jpg);
+}
+#xiangceimg:hover{
+	background-image:url(../image/hua.jpg);
+}
+#xiangceimg1{
+	background-size: 100% 100%;
+	border-radius: 200px 200px 200px 200px;
+	width:400px;
+	height:400px;
+	position:relative;
+	left:45%;
+	top:100px;
+	background-image:url(../image/ye.jpg);
+}
+#xiangceimg1:hover{
+	background-image:url(../image/zl.jpg);
+}
+#xiangce1{
+	opacity: 0.5;
+	position:relative;
+	top:100px;
+	float:right;
+	right:300px;
+	background-color: #000;
+	border-radius: 50px 50px 50px 50px;
+	width:100px;
+	height:100px;
+}
+#jishuimg1{
+	background-size: 100% 100%;
+	border-radius: 0px 200px 200px 200px;
+	width:400px;
+	height:400px;
+	background-image:url(../image/v2.jpg);
+	position:relative;
+	left:10%;
+	top:200px;
+}
+#jishuimg1:hover{
+	background-image:url(../image/11.jpg);
+}
+#fenxiangimg{
+	background-image:url(../image/daima.jpg);
+	position:relative;
+	left:20%;
+	top:200px;
+}
+#bozhuimg{
+box-shadow: 10px 10px 5px #888888;
+	background-size: 100% 100%;
+	border-radius: 0px 150px 150px 150px;
+	width:300px;
+	height:300px;
+	float:left;
+	background-image:url(../image/my.jpg);
+	position:relative;
+	left:10%;
+	top:50px;
+}
+.rizhitext img{
+	width:10px;
+	height:10px;
+}
+.rizhitext2 p{
+	position: relative;
+	top:100px;
+	font-family: 华文行楷;
+}
+#tj{
+	position:absolute;
+	left:50%;
+}
