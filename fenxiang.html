@@ -3,33 +3,78 @@
 <head>
 	<meta charset="utf-8">
 	<title>
-	技术
+	分享
 	</title>
 	<link rel="stylesheet" type="text/css" href="css/daohang.css">
+	<style>
+	body{
+		font-family: 华文行楷;
+		background-color: pink;
+		color:#fff;
+	}
+	body,div,p,img,a,h2{
+		margin:0;
+		padding:0;
+	/*	background-color:black;*/
+	}
+	#logo{
+		/*border:1px solid red ;*/
+		font-size: 20px;
+		background-color:gray;
+	}
+	#logo p{
+		margin:0;
+		padding-right :10% ;
+		text-align: right;
+	}
+	#logo img{
+		/*border:1px solid red ;*/
+		position:relative;
+		left:60%;
+	}
+	
+	#footer{
+		height:50px;
+		background-color:#333333;
+	}
+	#footer p{
+		font-size:10px;
+	/*	border:1px solid red ;*/
+		text-align:center ;
+	}
+	
 
+	</style>
 </head>
 <body>
 <div id="menu">
 <ul>
 	<li class="fmenu">
 		<ul class="childmenu">
-			<li class="childmenu1"><a href="#">主页</a></li>
+			<li class="childmenu1"><a href="index.html">主页</a></li>
 			<li class="childmenu2"><a href="#">日志</a></li>
-			<li class="childmenu3"><a href="#">相册</a></li>
-			<li class="childmenu4"><a href="#">技术</a>
+			<li class="childmenu3"><a href="xiangce.html">相册</a></li>
+			<li class="childmenu4"><a href="jishu.html">技术</a>
 				<ul class="cchild">
 					<li><a href="#">C语言</a></li>
 					<li><a href="#">HTML</a></li>
 					<li><a href="#"></a></li>
 				</ul>
 			</li>
-			<li class="childmenu5"><a href="#">软件共享</a></li>
-			<li class="childmenu6"><a href="#">博主风采</a></li>
+			<li class="childmenu5"><a href="fenxiang.html">软件共享</a></li>
+			<li class="childmenu6"><a href="bozhu.html">博主风采</a></li>
 
 		</ul>
 	</li>
 </ul>
 </div>
+<div id="logo">
+	<img src="image/logo.png"/>
+	<p>--程序员的修炼手册</p>
+</div>
 
+<div id="footer">
+	<p><b>博主QQ：</b>626973633<br><b>邮箱：</b>626973633@qq.com</p>
+</div>
 </body>
 </html>
