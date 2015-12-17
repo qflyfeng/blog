@@ -80,15 +80,6 @@ ul,li{
 	font-family:华文行楷;
 }
 /*二级菜单样式*/
-.zhuyec{
-	top :18% ;
-	border:1px solid red;
-	display: block;
-	position:absolute;
-	left:16%;
-	width:84%;
-
-}
 #nav frist-child:hover .zhuyec{
 	display: none;
 }
@@ -98,7 +89,7 @@ ul,li{
 	top:160px;
 	left:16%;
 	width:84%;/*83*/
-	height:1040px;
+	height:1120px;
 }
 /*日志li和ul等高等宽*/
 .rizhic li{
@@ -150,7 +141,7 @@ ul,li{
 	display: block;
 }
 .yuan{
-box-shadow: 10px 10px 5px #888888;
+	box-shadow: 10px 10px 5px #888888;
 	background-size: 100% 100%;
 	border-radius: 150px 150px 150px 150px;
 	width:300px;
@@ -216,7 +207,7 @@ box-shadow: 10px 10px 5px #888888;
 	top:200px;
 }
 #jishuimg1:hover{
-	background-image:url(v.jpg);
+	background-image:url(../image/11.jpg);
 }
 #fenxiangimg{
 	background-image:url(../image/daima.jpg);
