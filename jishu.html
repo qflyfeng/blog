@@ -7,15 +7,23 @@
 	</title>
 	<link rel="stylesheet" type="text/css" href="css/daohang.css">
 	<style>
+	#content a{
+		text-decoration: none;
+		color:gray;
+	}
+	#content a:hover{
+		color:#fff;
+	}
 	body{
 		font-family: 华文行楷;
-		background-color: pink;
+		background-image:url(image/v.jpg);
+		background-size:100% 100%;
 		color:#fff;
 	}
 	body,div,p,img,a,h2{
 		margin:0;
 		padding:0;
-	/*	background-color:black;*/
+		/*background-color:black;*/
 	}
 	#logo{
 		/*border:1px solid red ;*/
@@ -35,15 +43,107 @@
 	
 	#footer{
 		height:50px;
-		background-color:#333333;
+		background-color:rgba(144,144,144,0.35);
 	}
 	#footer p{
 		font-size:10px;
 	/*	border:1px solid red ;*/
 		text-align:center ;
 	}
+	#head{
+		background-color:rgba(1,0,0,0.5);
+		margin:0 auto;
+		width:1000px;
+	}
+	#head p{
+		font-size: 50px;
+		text-align: center;
+		padding-top: 30px;
+	}
+	#content{
+		/*border:1px solid red;*/
+		height:1000px;
+		width:1000px;
+		margin:0 auto;
+	}
+	#cyuyan{
+		opacity: 0.6;
+		overflow: hidden;
+		background-image:url(image/cyuyan.png);
+		background-size: 100% 100%;
+		border-radius:200px 300px 00px 300px ; 
+		height:500px;
+		width:500px;
+		float:left;
+	}
+	#cyuyan p{
+		font-size: 30px;
+		transform:translate(510px,400px);
+	}
+	#cyuyan:hover p{
+		transform:translate(300px,400px);
+	}
+	#cyuyan:hover{
+		opacity: 1;
+		background-color: #fff;
+	}
+	p{
+		transition:all 2s;
+	}
 	
+	 
+	#ht5{
+		overflow: hidden;
+		opacity: 0.6;
+		float:left;
+		background-image:url(image/html.png);
+		background-size: 100% 100%;
+		border-radius:300px 200px 300px 00px ; 
+		height:500px;
+		width:500px;
+	}
+	#ht5:hover{
+		opacity: 1;
+		background-color: #fff;
+	}
+	#ht5 p{
+		font-size: 30px;
+		transform:translate(-100px,400px);
+	}
+	#ht5:hover p{
+		transform:translate(100px,400px);
+	}
 
+	#ppt{
+		opacity: 0.6;
+		float:left;
+		background-image:url(image/z.jpg);
+		background-size: 100% 100%;
+		border-radius:300px 00px 300px 00px ; 
+		height:500px;
+		width:500px;
+	}
+	#ppt:hover{
+		opacity: 0.9;
+		background-color: #fff;
+	}
+
+	#xx{
+		opacity: 0.6;
+		float:left;
+		background-image:url(image/hai.jpg);
+		background-size: 100% 100%;
+		border-radius:00px 300px 00px 300px ; 
+		height:500px;
+		width:500px;
+	}
+	#xx:hover{
+		opacity: 0.9;
+		background-color: #fff;
+	}
+	p:nth-of-type(1){transition-delay:0.1s;}
+	p:nth-of-type(2){transition-delay:0.2s;}
+	p:nth-of-type(3){transition-delay:0.3s;}
 	</style>
 </head>
 <body>
@@ -72,9 +172,29 @@
 	<img src="image/logo.png"/>
 	<p>--程序员的修炼手册</p>
 </div>
+<div id="head">
+		<p>学习笔记</p>
+</div>
+<div id="content">
+	<a href="#"><div id="cyuyan">
+		<p>C</p><p>语</p><p>言</p>
+	</div></a>
 
+	<a href="#"><div id="ht5">
+		<p>HTML</p>
+	</div></a>
+
+	
+	<a href="#"><div id="ppt">
+	</div></a>
+
+	<a href="#"><div id="xx">
+	</div></a>
+</div>
 <div id="footer">
 	<p><b>博主QQ：</b>626973633<br><b>邮箱：</b>626973633@qq.com</p>
 </div>
+
+
 </body>
 </html>
