@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/daohang.css">
 	<style>
 		ul{
 		float:right;
@@ -11,28 +12,6 @@
 		margin:0px;
 		padding:0px;
 	}
-	#logo a{
-		text-decoration: none;
-		font-size: 20px;
-		color:#ffffff;
-		padding:15px;
-	}
-	#logo{
-		width:100%;
-		height:50px;
-		background-color:gray;
-		margin:0;
-		line-height:50px;
-
-	}
-	#logo a:hover{
-		background-color:#000000;
-		opacity:0.5;
-	}
-	#logo ul li{
-		float:right;
-		list-style:none;
-	} 
 	#first{
 		background-color:#000;
 		width:100%;
@@ -40,9 +19,12 @@
 	}
 
 	#footer{
-		width:100%;
 		height:50px;
-		background-color:gray;
+		background-color:#333333;
+	}
+	#footer p{
+		font-size:10px;
+		text-align:center ;
 	}
 	h1{
 		color:#fff;
@@ -92,13 +74,30 @@
 		text-decoration: none;
 		color:#fff;
 	}
-
-/*	#first:hover{
-		background-image:url(5.jpg);
-	}*/
 	</style>
 </head>
 <body>
+<div id="menu">
+<ul>
+	<li class="fmenu">
+		<ul class="childmenu">
+			<li class="childmenu1"><a href="index.html">主页</a></li>
+			<li class="childmenu2"><a href="#">日志</a></li>
+			<li class="childmenu3"><a href="xiangce.html">相册</a></li>
+			<li class="childmenu4"><a href="jishu.html">技术</a>
+				<ul class="cchild">
+					<li><a href="#">C语言</a></li>
+					<li><a href="#">HTML</a></li>
+					<li><a href="#"></a></li>
+				</ul>
+			</li>
+			<li class="childmenu5"><a href="fenxiang.html">软件共享</a></li>
+			<li class="childmenu6"><a href="bozhu.html">博主风采</a></li>
+
+		</ul>
+	</li>
+</ul>
+</div>
 <div id="hui">
 	<a href="#top">
 	<center><img src="image/hui.png"/></a>
@@ -122,14 +121,6 @@
 	<br>
 	<a href="#dishi"><h2>十</h2></a>
 	
-</div>
-<div id="logo" name="top">
-	<a href="http://qflyfeng.github.io/blog/">主页</a>
-	<ul>
-		<li><a href="">Dream</a></li>
-		<li><a href="">Study</a></li>
-		<li><a href="">Home</a></li>
-	</ul>
 </div>
 <div id="first">
 	<div>
@@ -167,8 +158,7 @@
 	</div>
 </div>
 <div id="footer">
-<a href="http://user.qzone.qq.com/626973633?ptlang=2052"><img src="image/qqshare2.png" width="50px" height="45px"></a>
-<a href="http://weibo.com/qflyfeng"><img src="image/wei.png" width="50px" height="50px"></a>
+	<p><b>博主QQ：</b>626973633<br><b>邮箱：</b>626973633@qq.com</p>
 </div>
 </body>
 </html>
