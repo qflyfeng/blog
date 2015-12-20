@@ -69,6 +69,7 @@ var _hmt = _hmt || [];
 		border-right:5px dashed gray;
 	}
 	.pic{
+		overflow: hidden;
 		text-align: center;
 		box-shadow: 10px 10px 40px 5px #000;
 		height:400px ;
@@ -122,6 +123,12 @@ var _hmt = _hmt || [];
 	/*	border:1px solid red ;*/
 		text-align:center ;
 	}
+	.pic img{
+		transition:all 1s;
+	}
+	.pic img:hover{
+		transform:scale(2);
+	}
 	
 
 	</style>
@@ -156,6 +163,7 @@ var _hmt = _hmt || [];
 
 	<div id="head">
 		<p>相册</p>
+		<center><br>成信大
 	</div>
 	<div id="pic1" class="pic">
 		<img src="image/ye.jpg"width="400px">
