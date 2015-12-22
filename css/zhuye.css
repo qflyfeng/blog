@@ -3,7 +3,7 @@ a{
 	color:#fff;
 }
 body{
-		background-image:url(../image/x.jpg);
+		background-image:url(../image/beiying.jpg);
 		background-color:gray;
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
@@ -163,6 +163,12 @@ ul,li{
 	position:relative;
 	top:80px;
 }
+.rizhitext a{
+	color: red;
+}
+.rizhitext a:hover{
+	color:blue;
+}
 #xiangceimg{
 	position:relative;
 	left:10%;
@@ -195,6 +201,12 @@ ul,li{
 	border-radius: 50px 50px 50px 50px;
 	width:100px;
 	height:100px;
+}
+#xiangce1 a{
+	color:red;
+}
+#xiangce1 a:hover{
+	color:blue;
 }
 #jishuimg1{
 	background-size: 100% 100%;
@@ -235,6 +247,9 @@ box-shadow: 10px 10px 5px #888888;
 	position: relative;
 	top:100px;
 	font-family: 华文行楷;
+}
+.rizhitext2 p:hover{
+	color:blue;
 }
 #tj{
 	position:absolute;
