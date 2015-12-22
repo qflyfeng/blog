@@ -67,6 +67,9 @@ li{
 .childmenu4:hover .cchild{
 	display: block;
 }
+.childmenu3:hover .cchild{
+	display: block;
+}
 	/*悬停在主菜单出现子菜单*/
 #menu:hover .childmenu{
 	display: block;

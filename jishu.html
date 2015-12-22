@@ -123,7 +123,8 @@ var _hmt = _hmt || [];
 		transform:translate(100px,400px);
 	}
 
-	#ppt{
+	#boke{
+		overflow: hidden;
 		opacity: 0.6;
 		float:left;
 		background-image:url(image/z.jpg);
@@ -132,12 +133,20 @@ var _hmt = _hmt || [];
 		height:500px;
 		width:500px;
 	}
-	#ppt:hover{
+	#boke:hover{
 		opacity: 0.9;
 		background-color: #fff;
 	}
+	#boke p{
+		font-size: 30px;
+		transform:translate(500px,100px);
+	}
+	#boke:hover p{
+		transform:translate(300px,100px);
+	}
 
 	#xx{
+		overflow: hidden;
 		opacity: 0.6;
 		float:left;
 		background-image:url(image/hai.jpg);
@@ -150,6 +159,14 @@ var _hmt = _hmt || [];
 		opacity: 0.9;
 		background-color: #fff;
 	}
+	#xx p{
+		font-size: 30px;
+		transform:translate(-100px,100px);
+	}
+	#xx:hover p{
+		transform:translate(100px,100px);
+	}
+
 	</style>
 </head>
 <body>
@@ -182,8 +199,8 @@ var _hmt = _hmt || [];
 		<p>学习笔记</p>
 </div>
 <div id="content">
-	<a href="boke.html"><div id="cyuyan">
-		<p>博客教程</p>
+	<a href=""><div id="cyuyan">
+		<p>C语言</p>
 	</div></a>
 
 	<a href="#"><div id="ht5">
@@ -191,10 +208,12 @@ var _hmt = _hmt || [];
 	</div></a>
 
 	
-	<a href="#"><div id="ppt">
+	<a href="boke.html"><div id="boke">
+		<p>博客</p>
 	</div></a>
 
 	<a href="#"><div id="xx">
+		<p>博客</p>
 	</div></a>
 </div>
 <div id="footer">
