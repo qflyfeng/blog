@@ -19,7 +19,7 @@ var _hmt = _hmt || [];
 	body{
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
-		background-image: url(image/lu.jpg);
+		background-image: url(image/xiyang2.jpg);
 		background-color: pink;
 		color:#fff;
 	}
@@ -54,86 +54,47 @@ var _hmt = _hmt || [];
 	/*	border:1px solid red ;*/
 		text-align:center ;
 	}
-	#clear{
-		clear:both;
+#cont{
+		width:100%;
+		height:1000px;
 	}
-	#content{
-		font-family: 微软雅黑;
+	#cont h1{
+		text-align: center;
+		border-bottom:5px solid #fff;
+		width:200px;
 		padding-top:100px;
-		float:right;
+		margin:0 auto;
+	}
+	#nav1{
+		margin-top:100px;
+		width:40%;
 		height:800px;
-		width:50%;
 		background-color: rgba(0,0,0,0.5);
 	}
-	#content h1{
-		padding-bottom: 10px;
-		margin:0 auto;
-		width:300px;
-		text-align:left;
-		/*border-bottom:1px solid #fff;*/
-		border-top:1px solid #fff;
+	#nav1 ul{
+		padding-top:100px;
 	}
-	#content p{
-		border-top:1px solid #fff;
-		margin:0 auto;
-		width:300px;
-		text-align:right;
+	#nav1 ul li p{
+		padding-top: 20px;
+		text-align: center;
 	}
-	#box1{
+	#nav1 ul li{
+		height:50px;
+	}
+	.xiala{
+		width:60%;
+		background-color: rgba(0,0,0,0.5);
+		display: none;
+		top:422px;
+		position: absolute;
+		left:40%;
+		height:757px;
+	}
+	#nav1 ul li:hover{
 		background-color: gray;
-		position:relative;
-		height:100px;
-		top:200px;
-		width:500px;
-		margin:0 auto;
-		border-bottom:1px solid #fff;
 	}
-	#head{
-		float:left;
-		background-color: #000;
-		margin:25px 0 25px 30px;
-		width:50px;
-		height:50px;
-	}
-	#head p{
-		font-size: 20px;
-		font-family: 华文琥珀;
-		padding-top:15px;
-		text-align: center;
-		width:50px;
-	}
-	#head1{
-		float:left;
-		background-color: #123;
-		margin:25px 0 25px 30px;
-		width:50px;
-		height:50px;
-	}
-	#head1 p{
-		font-size: 20px;
-		font-family: 华文琥珀;
-		padding-top:15px;
-		text-align: center;
-		width:50px;
-	}
-	#box1 a{
-		color:#fff;
-		text-decoration: none;
-		margin-top:55px;
-		width:350px;
-		float:right;
-	}
-	#content1{
-		float:left;
-		height:800px;
-		width:50%;
-	}
-	#content1 img{
-		top:300px;
-		width:50%;
-		height:50%;
-		position: relative;
-		left:25%;
+	#nav1 ul li:hover .xiala{
+		display: block;
 	}
 	</style>
 </head>
@@ -159,7 +120,7 @@ var _hmt = _hmt || [];
 				</ul>
 			</li>
 			<li class="childmenu5"><a href="fenxiang.html">软件共享</a></li>
-			<li class="childmenu6"><a href="bozhu.html">博主风采</a></li>
+			<li class="childmenu6"><a href="index.html#bozhu">博主风采</a></li>
 
 		</ul>
 	</li>
@@ -169,26 +130,56 @@ var _hmt = _hmt || [];
 	<img src="image/logo.png"/>
 	<p>--程序员的修炼手册</p>
 </div>
-<div id="content">
-	<h1>ppt</h1><p>Do what you want to do</p>
-	<div id="box1">
-		<div id="head"><p>01</p></div>
-		<a href="#" style="color:yellow">ppt开头模板</a>
-	</div>
-	<div id="box1">
-		<div id="head1"><p>02</p></div>
-		<a href="ppt1.html">ppt开始模板</a>
-	</div>
-	<div id="box1">
-		<div id="head1"><p>03</p></div>
-		<a href="ppt2.html">ppt画线条</a>
-	</div>
-</div>
-<div id="content1">
-	<a href="ppt/开始.pptx"><img src="image/pptst.png"></a>
+<div id="cont">
+	<h1>HTML</h1>
+	<div id="nav1">
+		<ul>
+			<li>
+				<p>纯html+css实现下拉菜单</p>
+				<div class="xiala">
+					<pre>
+						此处以ul为例
+						首先需要写个ul
+						<xmp>
+						<ul>
+							<li><a>aaa</a></li>
+							<li><a>aaa</a></li>
+						</ul>
+						</xmp>
+						之后嵌套一个ul在里面
+						<xmp>
+						<ul>
+							<li><a>aaa</a>
+								<ul>
+									<li>bbb</li>
+								</ul>
+							</li>
+							<li><a>aaa</a>
+								<ul>
+									<li>bbb</li>
+								</ul>
+							</li>
+						</ul>
+						</xmp>
+						然后让最里面的ul的display:none;
+						当你hover外层的li时让内层的ul的display:block;
+						ok，这样就实现了，这个方法最难处理的是二
+						层的位置问题，自己琢磨吧
+					</pre>
+				</div>
+			</li>
 
+			<li>
+				<p>html相关网站推荐</p>
+				<div class="xiala">
+					<p><a href="htttp://www.uisdc.com">优设网</a>--各种优秀设计</p>
+					<p><a href="htttp://www.uisdc.com">优设网</a>--各种优秀设计</p>
+				</div>
+			</li>
+		</ul>
+
+	</div>
 </div>
-<div id="clear"></div>
 <div id="footer">
 	<p><b>博主QQ：</b>626973633<br><b>邮箱：</b>626973633@qq.com</p>
 </div>

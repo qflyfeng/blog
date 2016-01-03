@@ -218,9 +218,7 @@ ul,li{
 	left:10%;
 	top:200px;
 }
-#jishuimg1:hover{
-	background-image:url(../image/11.jpg);
-}
+
 #fenxiangimg{
 	background-image:url(../image/daima.jpg);
 	position:relative;
